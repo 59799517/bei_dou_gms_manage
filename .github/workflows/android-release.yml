@@ -17,7 +17,7 @@ jobs:
       - name: Set up Flutter
         uses: subosito/flutter-action@v2
         with:
-          flutter-version: '3.5.1' # 与 pubspec.yaml 中的 sdk 版本对应
+          flutter-version: '3.5.1' 
 
       - name: Install dependencies
         run: flutter pub get
